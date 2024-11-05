@@ -95,8 +95,8 @@ Lasso with alpha 10
 Sames steps as before, but before training the model, PolynomialFeatures were created (limited to level 2). 
 The results were considerable better then the regular linear regression.
 
-      r2 score on training is:  0.7150913340408154    > +0.6
-      r2 score on test is:      0.6833108529252369    > +0.4
+      r2 score on training is:  0.7150913340408154    > +0.06
+      r2 score on test is:      0.6833108529252369    > +0.04
       RMSE on test data is:  72014.9511088531         > - 5800
 
 Although without standardization, the interpretability is somehow less straightforwards as it consists out of effects of combinations of features.
