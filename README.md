@@ -25,7 +25,7 @@ For this, relevant data was scraped from immoweb.be, cleaned and analyzed in pre
   ML ridge.ipynb
   raw.csv
   README.md
-  results.csv
+  requirements.txt
 ```
 
 # Details per model
@@ -55,9 +55,7 @@ Results:
         r2 score on training is:  0.6536846640291766
         r2 score on test is:      0.6459262117537045
         RMSE on test data is:  77886.23513614247
-
  
-
 ### ML LR_without_std.ipynb : Linear Regression without standardization
 Same steps as above, except for step 4- Standardization, that was skipped.
 Testing showed same results as above.
@@ -104,7 +102,6 @@ The results were considerable better then the regular linear regression.
 Although without standardization, the interpretability is somehow less straightforwards as it consists out of effects of combinations of features.
 
 
-
 ## DECISION TREE BASED MODELS
 
 ### ML DT : Decision tree
@@ -131,15 +128,15 @@ Initial tests with otherwise default parameters, gave following result:
 
 The RMSE result throughout the different iteration (horizontal ax) can be visualized, both for onthe training and the testing data:
 ![alt text](image-3.png)
+The iterartion with the best RMSE result on the test data is saved to the model.
 
 Hence, initially comparable with Polynominal regression.  The possible effect of the different available (hyper)parameters, still need to be tested further.
 
 
 # ⏱️ Timeline
-
 This project took 1 week for completion.
 
 # 📌 Personal Situation
-This project was done as part of the AI Boocamp at BeCode.org. 
+This project-step was done as part of the AI Boocamp at BeCode.org. 
 
 
